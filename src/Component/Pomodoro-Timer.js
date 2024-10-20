@@ -72,7 +72,7 @@ const PomodoroTimer=()=>{
         }
 
         return ()=>clearInterval(timerInterval);
-    },[isRunning,minutes,seconds,isWorkTime,cyclesCompletedn]);
+    },[isRunning,minutes,seconds,isWorkTime,cyclesCompleted]);
 
     return(
         <div className='timer-container'>
